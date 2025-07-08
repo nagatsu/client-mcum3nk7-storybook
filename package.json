@@ -1,0 +1,22 @@
+{
+  "name": "client-mcum3nk7-storybook",
+  "version": "1.0.0",
+  "description": "Storybook for テスト株式会社 - Based on Model-A Design System",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "dev": "npm run storybook",
+    "build": "npm run build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/html": "^7.6.7",
+    "@storybook/html-vite": "^7.6.7",
+    "@storybook/testing-library": "^0.2.2",
+    "storybook": "^7.6.7",
+    "vite": "^5.0.0"
+  }
+}
